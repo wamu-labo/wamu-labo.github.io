@@ -28,6 +28,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 article {
 	border:3px solid #6d6d6d;
+	background-color: #fff;
 }
 
 body {
