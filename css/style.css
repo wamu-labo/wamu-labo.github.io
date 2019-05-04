@@ -1643,14 +1643,14 @@ header + header {
 	font-family: Meiryo UI;
 	letter-spacing: 3.5px;
 	text-shadow: 
-		2px  2px 9px #ffd700,
-		-2px  2px 9px #ffd700,
-		2px -2px 9px #ffd700,
-		-2px -2px 9px #ffd700,
-		2px  0px 9px #ffd700,
-		0px  2px 9px #ffd700,
-		-2px  0px 9px #ffd700,
-		0px -2px 9px #ffd700;
+		2px  2px 9px #ff8c00,
+		-2px  2px 9px #ff8c00,
+		2px -2px 9px #ff8c00,
+		-2px -2px 9px #ff8c00,
+		2px  0px 9px #ff8c00,
+		0px  2px 9px #ff8c00,
+		-2px  0px 9px #ff8c00,
+		0px -2px 9px #ff8c00;
 }
 
 h1 .logo {
@@ -1660,14 +1660,14 @@ h1 .logo {
 	font-family: Meiryo UI;
 	letter-spacing: 3.5px;
 	text-shadow: 
-		2px  2px 9px #ffd700,
-		-2px  2px 9px #ffd700,
-		2px -2px 9px #ffd700,
-		-2px -2px 9px #ffd700,
-		2px  0px 9px #ffd700,
-		0px  2px 9px #ffd700,
-		-2px  0px 9px #ffd700,
-		0px -2px 9px #ffd700;
+		2px  2px 9px #ff8c00,
+		-2px  2px 9px #ff8c00,
+		2px -2px 9px #ff8c00,
+		-2px -2px 9px #ff8c00,
+		2px  0px 9px #ff8c00,
+		0px  2px 9px #ff8c00,
+		-2px  0px 9px #ff8c00,
+		0px -2px 9px #ff8c00;
 }
 
 :root{
