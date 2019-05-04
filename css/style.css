@@ -38,7 +38,7 @@ body {
 	line-height: 1.5;
 	color: #000;
 	text-align: left;
-	background-color: #fff;
+	background-color: #f0f8ff;
 }
 
 [tabindex="-1"]:focus {
@@ -1642,14 +1642,14 @@ header + header {
 	font-family: Meiryo UI;
 	letter-spacing: 3.5px;
 	text-shadow: 
-		2px  2px 9px #00007f,
-		-2px  2px 9px #00007f,
-		2px -2px 9px #00007f,
-		-2px -2px 9px #00007f,
-		2px  0px 9px #00007f,
-		0px  2px 9px #00007f,
-		-2px  0px 9px #00007f,
-		0px -2px 9px #00007f;
+		2px  2px 9px #ffd700,
+		-2px  2px 9px #ffd700,
+		2px -2px 9px #ffd700,
+		-2px -2px 9px #ffd700,
+		2px  0px 9px #ffd700,
+		0px  2px 9px #ffd700,
+		-2px  0px 9px #ffd700,
+		0px -2px 9px #ffd700;
 }
 
 h1 .logo {
@@ -1659,14 +1659,14 @@ h1 .logo {
 	font-family: Meiryo UI;
 	letter-spacing: 3.5px;
 	text-shadow: 
-		2px  2px 9px #00007f,
-		-2px  2px 9px #00007f,
-		2px -2px 9px #00007f,
-		-2px -2px 9px #00007f,
-		2px  0px 9px #00007f,
-		0px  2px 9px #00007f,
-		-2px  0px 9px #00007f,
-		0px -2px 9px #00007f;
+		2px  2px 9px #ffd700,
+		-2px  2px 9px #ffd700,
+		2px -2px 9px #ffd700,
+		-2px -2px 9px #ffd700,
+		2px  0px 9px #ffd700,
+		0px  2px 9px #ffd700,
+		-2px  0px 9px #ffd700,
+		0px -2px 9px #ffd700;
 }
 
 :root{
@@ -5085,7 +5085,7 @@ a .bg-light:focus, a .bg-light:hover, button .bg-light:focus, button .bg-light:h
 }
 
 .bg-dark {
-	background-color: #343a40 !important;
+	background-color: #008000 !important;
 }
 
 a .bg-dark:focus, a .bg-dark:hover, button .bg-dark:focus, button .bg-dark:hover {
