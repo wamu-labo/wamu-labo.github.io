@@ -1449,7 +1449,7 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	background-color: #ffffff;
+	background-color: #fff;
 }
 
 .fdb-block .container {
@@ -1643,31 +1643,31 @@ header + header {
 	font-family: Meiryo UI;
 	letter-spacing: 3.5px;
 	text-shadow: 
-		2px  2px 9px #ffa500,
-		-2px  2px 9px #ffa500,
-		2px -2px 9px #ffa500,
-		-2px -2px 9px #ffa500,
-		2px  0px 9px #ffa500,
-		0px  2px 9px #ffa500,
-		-2px  0px 9px #ffa500,
-		0px -2px 9px #ffa500;
+		2px  2px 9px #0a4bff,
+		-2px  2px 9px #0a4bff,
+		2px -2px 9px #0a4bff,
+		-2px -2px 9px #0a4bff,
+		2px  0px 9px #0a4bff,
+		0px  2px 9px #0a4bff,
+		-2px  0px 9px #0a4bff,
+		0px -2px 9px #0a4bff;
 }
 
-.logo-big {
+h1 .logo {
 	display: inline-block;
 	color: #ffffff;
 	font-size: 30px;
 	font-family: Meiryo UI;
 	letter-spacing: 3.5px;
 	text-shadow: 
-		2px  2px 9px #ffa500,
-		-2px  2px 9px #ffa500,
-		2px -2px 9px #ffa500,
-		-2px -2px 9px #ffa500,
-		2px  0px 9px #ffa500,
-		0px  2px 9px #ffa500,
-		-2px  0px 9px #ffa500,
-		0px -2px 9px #ffa500;
+		2px  2px 9px #0a4bff,
+		-2px  2px 9px #0a4bff,
+		2px -2px 9px #0a4bff,
+		-2px -2px 9px #0a4bff,
+		2px  0px 9px #0a4bff,
+		0px  2px 9px #0a4bff,
+		-2px  0px 9px #0a4bff,
+		0px -2px 9px #0a4bff;
 }
 
 :root{
@@ -5086,7 +5086,7 @@ a .bg-light:focus, a .bg-light:hover, button .bg-light:focus, button .bg-light:h
 }
 
 .bg-dark {
-	background-color: #4169e1 !important;
+	background-color: #f28918 !important;
 }
 
 a .bg-dark:focus, a .bg-dark:hover, button .bg-dark:focus, button .bg-dark:hover {
@@ -7180,6 +7180,10 @@ a .text-dark:focus, a .text-dark:hover {
 		border: 0;
 	}
 
+	.fdb-block .bg-sm-center {
+		background-position: center;
+	}
+
 }
 
 /* -- sm.css -- */
@@ -7946,6 +7950,10 @@ a .text-dark:focus, a .text-dark:hover {
 
 	.table-responsive-lg > .table-bordered {
 		border: 0;
+	}
+
+	.fdb-block .bg-md-r {
+		background-position: right;
 	}
 
 }
@@ -9674,6 +9682,24 @@ code {
 	border-bottom: solid 3px #1e90ff;
 }
 
+.tips h3 {
+	position: relative;
+	padding: 0.6em;
+	background: #e0edff;
+	border-radius: 25px;
+}
+
+.tips h3:after {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 30px;
+	border: 15px solid transparent;
+	border-top: 15px solid #e0edff;
+	width: 0;
+	height: 0;
+}
+
 /* -- caption.css -- */
 
 /* -- ribbon.css -- */
@@ -9790,7 +9816,7 @@ code {
 	display: block;
 	text-decoration: none;
 	color: #fff;
-	background: #ffa500;
+	background: #00bfff;
 	text-align: center;
 	border-radius: 50%;
 	outline: none;
@@ -10105,6 +10131,124 @@ article h3 {
 }
 
 /* -- article.css -- */
+
+/* -- table.css -- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: solid 2px white;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table th {
+  position: relative;
+  text-align: left;
+  width: 30%;
+  background-color: #52c2d0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th:after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top:calc(50% - 10px);
+  right:-10px;
+  border-left: 10px solid #52c2d0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+table td {
+  text-align: left;
+  width: 70%;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+}
+
+/* -- table.css -- */
+
+.company_box {
+	padding: 1em 1em;
+	margin: 1.5em 0.5em;
+	border: double 5px #4ec4d3;
+
+}
+
+.tab {
+	text-indent: 2em;
+}
+
+.history ul, .history ol {
+	color: #1e366a;
+	border-top: solid #1e366a 3px;
+	border-bottom: solid #1e366a 3px;
+	padding: 0.5em 0 0.5em 1.5em;
+}
+
+.history ul li, .history ol li {
+	line-height: 1.5;
+	padding: 0.5em 0;
+}
+
+.comment {
+  width: 100%;
+  margin: 1.5em 0;
+  overflow: hidden;
+}
+
+.comment .author_icon {
+  float: left;
+  margin-right: -90px;
+  width: 80px;
+}
+
+.comment .author_icon img{
+  width: 100%;
+  height: auto;
+  border: solid 3px #d7ebfe;
+  border-radius: 50%;
+}
+
+.comment .chatting {
+  width: 100%;
+}
+
+.says {
+  display: inline-block;
+  position: relative; 
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: #d7ebfe;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid #d7ebfe;
+}
+
+.says p {
+  margin: 0;
+  padding: 0;
+}
 
 /* -- plus.css -- */
 
